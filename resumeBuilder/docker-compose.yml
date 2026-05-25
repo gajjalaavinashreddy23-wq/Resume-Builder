@@ -1,0 +1,15 @@
+version: "3"
+services:
+  resume-builder:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - PORT
+      - MONGODB_URI
+      - OPENROUTER_API_KEY
+    volumes:
+      - ./temp:/usr/src/app/temp
+    restart: unless-stopped

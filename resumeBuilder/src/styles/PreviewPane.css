@@ -1,0 +1,135 @@
+/* src/styles/PreviewPane.css */
+  
+.preview-pane {
+    width: 290px;
+    max-width: 100%; 
+    padding: 20px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    position: relative; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+/* Header */
+.preview-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.resume-name {
+    font-variant: small-caps;
+    font-size: 11px;
+    color: #2b2b2b;
+    margin: 0;
+}
+
+.contact-info {
+    font-size: 7px;
+    color: #666;
+}
+.professional-title {
+    font-size: 7px;
+    color: #666;
+}
+.introduction-content{
+    font-size: 7px;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+
+  
+/* Section headings */
+.resume-section {
+    margin-bottom: 5px;
+}
+
+.section-heading {
+    font-variant: small-caps;
+    font-size: 9px !important;       
+    line-height: 1 !important;
+    margin: 1px 0 !important;
+    padding-bottom: 1px !important;
+    border-bottom: 1px solid #ddd !important;
+    letter-spacing: 0.3px !important;
+}
+  
+/* Education */
+.education-item {
+    margin-bottom: 4px;
+}
+
+.item-title {
+    font-size: 8px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 1px;
+}
+
+.edu-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 7px;
+    margin-bottom: 1px;
+}
+
+.period-text {
+    color: #555;
+}
+  
+/* Skills */
+.skills-content {
+    font-size: 7px;
+    line-height: 1.2;
+}
+  
+/* Experience & Projects */
+.experience-item,
+.project-item {
+    margin-bottom: 4px;
+}
+
+.tech-stack {
+    font-size: 7px;
+    font-style: italic;
+}
+
+.description-text {
+    font-size: 7px;
+    line-height: 1.1;
+    margin-top: 2px;
+}
+
+.list-item {
+    padding-left: 6px;
+    text-indent: -6px;
+    margin-bottom: 1px;
+}
+
+/* Additional Information Sections */
+.certification-item,
+.achievement-item,
+.activity-item {
+  margin-bottom: 4px;
+}
+
+.certification-item .item-title,
+.achievement-item .item-title,
+.activity-item .item-title {
+  font-size: 8px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  color: #333;
+}
+
+.organization-text {
+  font-style: italic;
+  color: #555;
+  font-size: 7px;
+}
+
+.description-text {
+  margin-top: 2px;
+  font-size: 7px;
+}
